@@ -4,7 +4,7 @@ const HeroSection = () => {
     return (
         <div className='mt-7 px-12'>
             <div className='h-[47rem] w-full relative'>
-                <img src="/public/images/Banner Image.png" className='w-full object-fill h-full rounded-[35px]' alt="banner image" />
+                <img src=" /images/Banner Image.png" className='w-full object-fill h-full rounded-[35px]' alt="banner image" />
                 <div className='absolute left-10 bottom-28'>
                     <h1 className='text-5xl font-semibold text-white leading-tight'>
                         Transforming <br />
@@ -27,7 +27,7 @@ const HeroSection = () => {
                             <option value="bangladesh">Bangladesh</option>
                         </select>
 
-                        <img src="/public/images/icons/Vector (1).png" className='w-5 h-5 absolute right-3 top-1/2 -translate-y-1/2' alt="location" />
+                        <img src=" /images/icons/Vector (1).png" className='w-5 h-5 absolute right-3 top-1/2 -translate-y-1/2' alt="location" />
 
                     </div>
 
@@ -45,7 +45,7 @@ const HeroSection = () => {
                             className="absolute left-0 top-0 rounded-2xl text-black pointer-events-none transition-all duration-300 ease-in-out bg-white/70 w-full h-full flex items-center justify-between px-3 py-[10px] font-[500] text-lg"
                         >
                             Event Date
-                            <img src="/public/images/icons/Vector calender.png" className='h-5 w-5' alt="calender" />
+                            <img src=" /images/icons/Vector calender.png" className='h-5 w-5' alt="calender" />
                         </label>
                     </div>
 
@@ -60,7 +60,7 @@ const HeroSection = () => {
                             <option value="wedding">Wedding</option>
                             <option value="birthday">Birthday</option>
                         </select>
-                        <img src="/public/images/icons/Vector down.png" className='w-5 h-5 absolute right-3 top-1/2 -translate-y-1/2' alt="type" />
+                        <img src=" /images/icons/Vector down.png" className='w-5 h-5 absolute right-3 top-1/2 -translate-y-1/2' alt="type" />
 
                     </div>
 
@@ -77,13 +77,13 @@ const HeroSection = () => {
                             className="absolute left-0 top-0 rounded-2xl text-black pointer-events-none transition-all duration-300 ease-in-out bg-white/70 w-full h-full flex items-center justify-between px-3 py-[10px] font-[500] text-lg"
                         >
                             Event Time
-                            <img src="/public/images/icons/Group 5.png" className='h-5 w-5' alt="calender" />
+                            <img src=" /images/icons/Group 5.png" className='h-5 w-5' alt="calender" />
                         </label>
                     </div>
 
                     {/* Submit Button */}
                     <button type="submit" className="text-white shadow-md shadow-slate-600 rounded-2xl px-5 py-4 bg-white">
-                        <img src="/public/images/icons/Vector search.png" className='size-8' alt="search" />
+                        <img src=" /images/icons/Vector search.png" className='size-8' alt="search" />
                     </button>
                 </form>
             </div>

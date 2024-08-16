@@ -7,21 +7,21 @@ const trendingData = [
         experience: "10 years experience",
         clients: "2k+ Clients",
         rating: "4.8 | 780",
-        image: "/public/images/trending/trend1.jpeg"
+        image: " /images/trending/trend1.jpeg"
     },
     {
         name: "Raila Dsouza",
         experience: "7 years experience",
         clients: "1k+ Clients",
         rating: "4.5 | 390",
-        image: "/public/images/trending/trend2.jpeg"
+        image: " /images/trending/trend2.jpeg"
     },
     {
         name: "Sam Clark",
         experience: "7 years experience",
         clients: "1k+ Clients",
         rating: "4.4 | 480",
-        image: "/public/images/trending/trend3.jpeg"
+        image: " /images/trending/trend3.jpeg"
     }
 ]
 

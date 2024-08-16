@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div className='h-32 w-full flex justify-between items-center px-[5.5rem]'>
             <Link to="/">
-                <img src="/public/images/PhotoMate.com.png" className='w-80 ' alt="Photomate logo" />
+                <img src=" /images/PhotoMate.com.png" className='w-80 ' alt="Photomate logo" />
             </Link>
             <div className='flex gap-6 items-center'>
                 <Link

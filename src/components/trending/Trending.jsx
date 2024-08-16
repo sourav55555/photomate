@@ -27,12 +27,12 @@ const trendingData = [
 
 const Trending = () => {
     return (
-        <div className='px-20 mt-32'>
+        <div className='ms:px-20 px-5 mt-20 md:mt-32'>
             <h3 className='text-4xl font-semibold mb-12'>
                 Trending Photographers
             </h3>
 
-            <div className='flex items-center justify-center gap-8 '>
+            <div className='flex flex-col md:flex-row items-center justify-center gap-8 '>
                 {
                     trendingData.map((data, index) =>
                         <div key={index} className='p-5 rounded-[50px] bg-white text-black group'>

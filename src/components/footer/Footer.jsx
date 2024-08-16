@@ -8,9 +8,9 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className='mt-[7.25rem] flex justify-between px-28 pb-28'>
-            <div className='w-[35%]'>
-                <h4 className='text-[3.125rem] font-semibold mb-10'>GET IN TOUCH</h4>
+        <div className='mt-20 md:mt-[7.25rem] gap-5 flex md:flex-row flex-col justify-between px-5 md:px-28 pb-20 md:pb-28'>
+            <div className='md:w-[35%]'>
+                <h4 className='text-4xl tmd:text-[3.125rem] font-semibold mb-10'>GET IN TOUCH</h4>
                 <p className='text-lg mb-10'>Feel free to reach out if you want to collaborate with
                     us, or simply have a chat</p>
                 <div className='mb-10'>
@@ -30,7 +30,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div>
-                    <div className='flex items-center gap-7'>
+                    <div className='flex items-center gap-4 md:gap-7'>
                         <div className='w-12 h-12 bg-[#1E1E20] rounded flex items-center justify-center'>
                             <FaPhoneAlt size={20} />
                         </div>
@@ -39,7 +39,7 @@ const Footer = () => {
                             <p className='text-sm text-white/60'>Help phone support</p>
                         </div>
                     </div>
-                    <div className='flex items-center gap-7 mt-5'>
+                    <div className='flex items-center gap-4 md:gap-7 mt-5'>
                         <div className='w-12 h-12 bg-[#1E1E20] rounded flex items-center justify-center'>
                             <IoMail size={20} />
                         </div>
@@ -48,7 +48,7 @@ const Footer = () => {
                             <p className='text-sm text-white/60'>Help email support</p>
                         </div>
                     </div>
-                    <div className='flex items-center gap-7 mt-5'>
+                    <div className='flex items-center gap-4 md:gap-7 mt-5'>
                         <div className='w-12 h-12 bg-[#1E1E20] rounded flex items-center justify-center'>
                             <HiOutlineLocationMarker size={20} />
                         </div>
@@ -60,7 +60,7 @@ const Footer = () => {
                 </div>
             </div>
             <div>
-                <h3 className='text-[30px] font-semibold mb-10'>Company</h3>
+                <h3 className='text-[30px] font-semibold mb-6 md:mb-10'>Company</h3>
                 <ul className='text-lg'>
                     <li className='mb-7'>
                         <Link>About Us</Link>
@@ -76,8 +76,8 @@ const Footer = () => {
                     </li>
                 </ul>
             </div>
-            <div className='w-[35%]'>
-                <form action="" className='w-full bg-[#1A1A1A] p-8 rounded-[20px] space-y-5'>
+            <div className='md:w-[35%]'>
+                <form action="" className='w-full bg-[#1A1A1A] p-4 md:p-8 rounded-[20px] space-y-5'>
                     <input type="text" name="name" id="name" className='bg-transparent w-full px-6 py-4 rounded-full text-lg border border-white/60' placeholder='Full Name' />
                     <input type="email" name="email" id="" className='bg-transparent w-full px-6 py-4 rounded-full text-lg border border-white/60' placeholder='Email Address' />
 
